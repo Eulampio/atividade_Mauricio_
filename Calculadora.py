@@ -1,9 +1,4 @@
-while True:
-    print(" Digite 1 para ADIÇÃa")
-    print(" Digite 2 para SUBTRAÇÃO")
-    print(" Digite 3 para DIVISÃO")
-    print(" Digite 4 para MULTIPLICAÇÃO")
-
+def calculadora():
     x=float(input(" Digite a opção:  "))
     if x<=0 or x>=5:
         print("opção invalida")
@@ -18,4 +13,4 @@ while True:
        import Multiplicacao
     elif x==0:
         print('calculadora encerrada')
-        break
+        
